@@ -41,7 +41,7 @@ app.post("/",function(req,res){
   const url="https://us12.api.mailchimp.com/3.0/lists/9a7f0192b2";
   const options={
     method:"POST",
-    auth:"sai1:60f35228333b82347a080662d5c9b981-us12"
+    auth:"sai1:42e6b2851f6c1045cac32004d2b8ded3-us12"
   };
   const request =https.request(url,options,function(response){
 
